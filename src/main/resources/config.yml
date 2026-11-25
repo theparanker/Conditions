@@ -1,0 +1,6 @@
+conditions:
+  example:
+    conditions:
+      - "%player_name%==_theparanker_"
+    true: "This message is triggered when the condition return true!"
+    false: "This message is triggered when the condition return false!"

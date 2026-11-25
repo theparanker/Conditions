@@ -1,0 +1,6 @@
+transformers {
+    stringEncryption {
+        enabled = true
+        type = "STANDARD"
+    }
+}

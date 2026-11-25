@@ -1,0 +1,13 @@
+main: it.theparanker.conditions.bootstrap.PluginBootstrap
+name: Conditions
+version: '1.0'
+api-version: 1.21
+description: A plugin capable of creating conditions!
+author: _theparanker_
+depend:
+  - PlaceholderAPI
+commands:
+  condition:
+    aliases: conditions
+    usage: /<command> reload
+    permission: conditions.admin.reload
