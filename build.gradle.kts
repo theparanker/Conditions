@@ -1,7 +1,6 @@
 plugins {
     id("java")
     id("com.gradleup.shadow") version "8.3.5"
-    id("dev.skidfuscator") version "0.1.4"
 }
 
 group = "it.theparanker"
@@ -32,8 +31,4 @@ tasks {
     build {
         dependsOn(shadowJar)
     }
-}
-
-skidfuscator {
-    skidfuscatorVersion = "latest"
 }
